@@ -7,8 +7,7 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'الرئيسية', href: '#', icon: BookOpen },
-    { name: 'الأقسام', href: '#sections', icon: BookOpen },
-    { name: 'الوسوم', href: '#tags', icon: Tag },
+    { name: 'المواد', href: '#subjects', icon: BookOpen },
     { name: 'نبذة عني', href: '#about', icon: User },
   ];
 
