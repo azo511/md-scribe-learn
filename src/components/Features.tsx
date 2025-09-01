@@ -17,40 +17,40 @@ const Features = () => {
   const features = [
     {
       icon: BookOpen,
-      title: 'ملخصات شاملة',
-      description: 'محتوى تعليمي منظم ومفصل يغطي جميع المواضيع الأساسية',
+      title: 'شرح مبسط للمواد',
+      description: 'نشرح لك فكرة كل مادة بطريقة سهلة ومفهومة مع أمثلة واضحة',
       color: 'from-primary to-primary/70',
       image: sectionsIcon
     },
     {
       icon: Clock,
-      title: 'خط زمني تفاعلي',
-      description: 'تتبع تقدمك التعليمي وخطط دراستك بطريقة بصرية ممتعة',
+      title: 'تنظيم المقررات',
+      description: 'كل مادة منظمة حسب الفصول والوحدات لتسهيل المراجعة',
       color: 'from-accent to-accent/70',
       image: timelineIcon
     },
     {
       icon: MessageSquare,
-      title: 'نظام تعليقات',
-      description: 'شارك أفكارك واطرح أسئلتك في مجتمع تعليمي تفاعلي',
+      title: 'أسئلة ونقاشات',
+      description: 'اطرح أسئلتك حول المواد وناقش مع زملائك في نفس التخصص',
       color: 'from-emerald-500 to-emerald-400'
     },
     {
       icon: Star,
-      title: 'تقييم المحتوى',
-      description: 'قيم الدروس وساعد الآخرين في اختيار أفضل المحتوى',
+      title: 'تقييم الملخصات',
+      description: 'اختر أفضل الملخصات لموادك بناءً على تقييم الطلاب الآخرين',
       color: 'from-orange-500 to-orange-400'
     },
     {
       icon: Search,
-      title: 'بحث ذكي',
-      description: 'اعثر على المعلومات بسرعة مع نظام البحث المتطور',
+      title: 'بحث في موادك',
+      description: 'ابحث في جميع موادك الدراسية بسرعة واعثر على ما تحتاجه فوراً',
       color: 'from-blue-500 to-blue-400'
     },
     {
       icon: Target,
-      title: 'مسارات مخصصة',
-      description: 'خطط دراسية مصممة خصيصاً لتناسب أهدافك التعليمية',
+      title: 'خطة دراسية',
+      description: 'خطط دراسية مرتبة حسب تخصصك ومستواك الأكاديمي',
       color: 'from-purple-500 to-purple-400'
     }
   ];
@@ -68,10 +68,10 @@ const Features = () => {
         {/* Header */}
         <div className="text-center space-y-4 mb-16" dir="rtl">
           <h2 className="heading-secondary text-gradient">
-            ميزات تجعل التعلم أكثر متعة
+            لماذا ملخصاتي هو دليلك المثالي
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            اكتشف مجموعة من الأدوات والميزات التي تجعل رحلة التعلم أكثر فعالية وإنتاجية
+            ميزات مصممة خصيصاً لتجعل فهم موادك الدراسية أسهل وأكثر وضوحاً
           </p>
         </div>
 
